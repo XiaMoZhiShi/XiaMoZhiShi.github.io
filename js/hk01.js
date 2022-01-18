@@ -6,7 +6,7 @@
     c.width = window.innerWidth;
  
     //chinese characters - taken from the unicode charset
-    var chinese = "00010011001010110001001100101011000100110010101100010011001010110001001100101011000100110010101100010011001010110001001100101011";
+    var chinese = "!ⵢⵜⵉⵏⵓ,,ⵄⵛ ⵔⵓⵄ ⵄⵜ ⴻ,ⵄⵛⵍⴻⵣⵉⵀⵙⵉⵀⵡⵄ,ⵇⵉⵅ ⵙⵉ ⴻⵔⴻⵀ";
     //converting the string into an array of single characters
     chinese = chinese.split("");
  
