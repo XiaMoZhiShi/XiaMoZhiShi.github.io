@@ -6,7 +6,7 @@
     c.width = window.innerWidth;
  
     //chinese characters - taken from the unicode charset
-    var chinese = "Minecraft FOREVER Minecraft FOREVER Minecraft FOREVER Minecraft FOREVER Minecraft FOREVER Minecraft FOREVER Minecraft FOREVER Minecraft FOREVER";
+    var chinese = "Minecraft FOREVER";
     //converting the string into an array of single characters
     chinese = chinese.split("");
  
