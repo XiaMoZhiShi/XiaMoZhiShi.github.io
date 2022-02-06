@@ -31,7 +31,7 @@
         //looping over drops
         for (var i = 0; i < drops.length; i++) {
             //a random chinese character to print
-            var text = chinese[Math.floor(Math.random() * chinese.length)];
+            var text = chinese[i];
             //x = i*font_size, y = value of drops[i]*font_size
             ctx.fillText(text, i * font_size, drops[i] * font_size);
  
