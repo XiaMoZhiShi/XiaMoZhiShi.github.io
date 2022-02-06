@@ -30,8 +30,8 @@
         ctx.font = font_size + "px arial";
         //looping over drops
         for (var i = 0; i < drops.length; i++) {
-            //a random chinese character to print
-            var text = chinese[i];
+            //a known chinese character to print
+            var text = chinese[0];
             //x = i*font_size, y = value of drops[i]*font_size
             ctx.fillText(text, i * font_size, drops[i] * font_size);
  
